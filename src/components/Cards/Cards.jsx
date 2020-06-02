@@ -18,7 +18,7 @@ const Cards = ( { data: { confirmed, recovered, deaths, lastUpdate } }) => {
           <Typography variant= "h5">
             <CountUp start={0} end={confirmed.value} duration={3} separator="," />
           </Typography>
-          <Typography color="textSecondary">{ new Date(lastUpdate).toLocaleString()}</Typography>
+          <Typography color="textSecondary">{ new Date(lastUpdate).toLocaleDateString()}</Typography>
           <Typography variant="body2">Número de Casos activos</Typography>
         </CardContent>
       </Grid>
@@ -28,7 +28,7 @@ const Cards = ( { data: { confirmed, recovered, deaths, lastUpdate } }) => {
           <Typography variant= "h5">
             <CountUp start={0} end={recovered.value} duration={3} separator="," />
           </Typography>
-          <Typography color="textSecondary">{ new Date(lastUpdate).toLocaleString()}</Typography>
+          <Typography color="textSecondary">{ new Date(lastUpdate).toLocaleDateString()}</Typography>
           <Typography variant="body2">Número de Casos recuperados</Typography>
         </CardContent>
       </Grid>
@@ -38,7 +38,7 @@ const Cards = ( { data: { confirmed, recovered, deaths, lastUpdate } }) => {
           <Typography variant= "h5">
             <CountUp start={0} end={deaths.value} duration={3} separator="," />
           </Typography>
-          <Typography color="textSecondary">{ new Date(lastUpdate).toLocaleString()}</Typography>
+          <Typography color="textSecondary">{ new Date(lastUpdate).toLocaleDateString()}</Typography>
           <Typography variant="body2">Número de muertos por Covid</Typography>
         </CardContent>
       </Grid>
