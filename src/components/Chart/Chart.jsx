@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { fetchDaily } from '../../api';
 import { Line, Bar } from 'react-chartjs-2';
 
