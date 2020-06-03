@@ -1,5 +1,5 @@
 .container {
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 .card {
@@ -16,4 +16,10 @@
 
 .deaths {
   border-bottom: 10px solid rgb(212, 0, 0);
+}
+
+@media (max-witdh: 770px){
+  .card{
+    margin: 2% 0 !important;
+  }
 }

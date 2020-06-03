@@ -3,3 +3,9 @@
   justify-content: center;
   width: 80%;
 }
+
+@media (max-witdh: 770px){
+  .container{
+    width: 100%
+  }
+}
